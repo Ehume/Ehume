@@ -397,7 +397,7 @@ body:
     required: true
 - type: dropdown
   attributes:
-    label: Is this project associated with other projects/ecosystem stakeholders?
+    label: Is your organization a company?
     options:
       - "Yes"
       - "No"
@@ -405,7 +405,7 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: If answered yes, what are the other projects/ecosystem stakeholders
+    label: If answered yes, please send your business license and certificate from Jumio & Veriff & Qichacha & Tianyancha to info@ehume.com
     render: text
   validations:
     required: false
