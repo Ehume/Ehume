@@ -16,10 +16,11 @@
 
 🌱Step of application
 1. Clients need to use their github account to (https://github.com/Ehume/Ehume/issues) to submit a datacap application, which will be reviewed by allocator
-2. Once the application is approved, client needs to go to https://www.ehume.com/#/DC to pay the pledge. After completing the pledging, client can receive datacap
+2. Then clients need to go to https://www.ehume.com/#/DC to pay the pledge. After completing the pledging, client can receive datacap
 3. Clients use datacap for data storage
-4. Within ten business days, allocator will check the client's cid report and return the pledge after confirming they are eilgible; if the client is not compliant, the pledge will be transferred to sp to cover the cost of storage
+4. When clients want their pldge to be returned, allocator will check the client's cid report within ten business days. After confirming client is eilgible, the pledge will be returned in three business days; If the client is not compliant, all or part of pledge will be transferred to sp who are joining in this sealing to cover the cost of storage
 
+![image](https://github.com/user-attachments/assets/adc88684-fc94-49d0-b898-4bef0dcc3827)
 
 
 <!--
