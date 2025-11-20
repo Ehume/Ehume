@@ -1,11 +1,11 @@
-name: Large Dataset Datacap Application v1.3
-description: Clients should use this application form to request a DataCap allocation via a LDN for a dataset
+name: DataCap Application
+description: Clients should use this application form to request a DataCap allocation for a dataset
 title: "[DataCap Application] <Organization> - <Project Name>"
 body:
 - type: markdown
   attributes:
     value: |
-      # Large Dataset Notary Application
+      # DataCap Application
       To apply for DataCap to onboard your dataset to Filecoin, please fill out the following form
 - type: markdown
   attributes:
@@ -341,12 +341,13 @@ body:
   attributes:
     label: Number of replicas to store
     options:
-      - '≥5'
-      - '≥6'
-      - '≥7'
-      - '≥8'
-      - '≥9'
-      - '≥10'
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
   validations:
     required: true
 - type: input
@@ -396,7 +397,7 @@ body:
     required: true
 - type: dropdown
   attributes:
-    label: Is your organization a company?
+    label: Is this project associated with other projects/ecosystem stakeholders?
     options:
       - "Yes"
       - "No"
@@ -404,7 +405,7 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: If answered yes, please send your business license and certificate from Jumio & Veriff & Qichacha & Tianyancha to info@ehume.com
+    label: If answered yes, what are the other projects/ecosystem stakeholders
     render: text
   validations:
     required: false
